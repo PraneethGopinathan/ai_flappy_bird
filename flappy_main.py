@@ -213,7 +213,6 @@ def main():
         draw_window(win, base, pipes, bird)
     pygame.quit()
     quit()
-    print()
 
 
 main()
