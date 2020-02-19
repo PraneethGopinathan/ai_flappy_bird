@@ -210,7 +210,7 @@ def main():
             pipe.move()
 
         if add_pipe:
-            score += 1
+            score += 1  # Score Increment
             pipes.append(Pipe(600))
 
         for r in rem:
